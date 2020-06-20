@@ -78,10 +78,6 @@
 
         <!-- 右侧内容区 -->
         <div class="content">
-          <!-- iframe -->
-          <!-- <iframe id="iframe" scrolling="no" src="knowledge_library.html" frameborder="0" width="750px" height="920px"></iframe> -->
-          <!-- iframe -->
-
 
           <div id="knowledge">
             <div id="knowledge_header">
@@ -176,7 +172,7 @@
             <div class="nav_title">
               智慧交通——视频演示
             </div>
-            <video autoplay controls src="video/智慧交通.mp4">您的浏览器不支持video标签</video>  
+            <video controls src="video/智慧交通.mp4">您的浏览器不支持video标签</video>  
           </div>
 
 
@@ -245,7 +241,6 @@
       <!-- 页脚 -->
   </body>
   <script>
-    knowledge,online,transport
     function knowledge_library() {
       document.getElementById("knowledge_library").style.backgroundColor =
         "#9ac1e6";
@@ -259,7 +254,6 @@
     }
 
     function online_answer() {
-      ChangeImg();
       document.getElementById("online_answer").style.backgroundColor =
         "#9ac1e6";
       document.getElementById("knowledge_library").style.backgroundColor =
@@ -299,10 +293,12 @@
       }
       a[index].style.display = "block";
     }
-    //设置定时器，每隔四秒切换一张图片
+    //设置定时器，每隔三秒切换一张图片
     setInterval(ChangeImg, 3000);
 
-
+    window.onload = function(){
+      ChangeImg();
+    }
     
     var url = window.location.href;//获取当前浏览器的url  
     idd = url.indexOf("flag");//判断当前url是否有flag，如果有，说明是从A页面跳转而来的，就执行下面的程序  

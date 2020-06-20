@@ -17,12 +17,7 @@ ZoomPic.prototype =//指向一个object对象
 		this._doPrev = function () { return _this.doPrev.apply(_this) };
 		this._doNext = function () { return _this.doNext.apply(_this) };
 		this.options = [
-			// { width: 365, height: 252, top: 40, left: 0, zIndex: 1 },
-			// { width: 405, height: 280, top: 20, left: 60, zIndex: 2 },
-			// { width: 445, height: 308, top: 0, left: 130, zIndex: 3 },
-			// { width: 405, height: 280, top: 20, left: 240, zIndex: 2 },
-			// { width: 366, height: 252, top: 40, left: 345, zIndex: 1 },
-
+			
 			{ width: 420, height: 300, top: 40, left: 0, zIndex: 1 },
 			{ width: 460, height: 350, top: 20, left: 60, zIndex: 2 },
 			{ width: 500, height: 400, top: 0, left: 130, zIndex: 3 },
