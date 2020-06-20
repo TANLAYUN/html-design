@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+a,
+img {
+  border: 0;
+}
+body {
+  font: 12px/180% Arial, Helvetica, sans-serif, "新宋体";
+}
+#photo_main{
+    background: url(../img/5.jpg) center no-repeat;
+    background-size:100% 100%;
+    background-color: rgba(203, 219, 235,10%);
+    height:550px;
+}
+/* focus_Box */
+#focus_Box {
+  position: relative;
+  width: 100%;
+  background-color:rgba(200, 200, 200, 70%);
+  padding-top:80px;
+}
+#focus_Box ul {
+  position: relative;
+  height: 470px;
+  margin-left:120px;
+}
+#focus_Box li {
+  z-index: 0;
+  position: absolute;
+  width: 0px;
+  background: #787878;
+  height: 0px;
+  top: 146px;
+  cursor: pointer;
+  left: 377px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 12px rgba(200, 200, 200, 1);
+}
+#focus_Box li img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+#focus_Box .prev,
+#focus_Box .next {
+  display: block;
+  z-index: 100;
+  overflow: hidden;
+  cursor: pointer;
+  position: absolute;
+  width: 52px;
+  height: 52px;
+  top: 131px;
+}

@@ -1,0 +1,201 @@
+.content {
+  float: right;
+  margin-top: 20px;
+  width: 750px;
+  height: 900px;
+  position: relative;
+  /* border: #e0dfdd 1px solid; */
+}
+
+
+/* 长沙 */
+#changsha1 {
+  float: left;
+  width: 300px;
+  border-bottom: 1px #e0dfdd solid;
+  margin-right: 50px;
+}
+.footprint_text {
+  font-size: 15px;
+  color: #8e8e8e;
+  text-align: justify;
+  margin: 10px;
+  line-height: 25px;
+}
+#changsha1_text img {
+  height: 180px;
+  width: 280px;
+  margin: 10px;
+  border-radius: 6px;
+}
+#changsha2 {
+  float: left;
+  width: 400px;
+  border-bottom: 1px #e0dfdd solid;
+}
+#changsha2_text img {
+  float: left;
+  height: 180px;
+  width: 185px;
+  margin: 10px 10px 14px 5px;
+  border-radius: 6px;
+}
+#changsha2_text .footprint_text {
+  margin-right: 30px;
+}
+#changsha3 {
+  float: left;
+  width: 750px;
+  border-bottom: 1px #e0dfdd solid;
+  margin: 20px 0px 0px 0px;
+}
+#changsha3_text img {
+  /* float:right; */
+  height: 190px;
+  width: 385px;
+  margin: 10px 10px 14px 35px;
+  border-radius: 6px;
+}
+#changsha3_text .footprint_text {
+  float: left;
+  margin-right: 30px;
+  width: 280px;
+}
+
+#changsha4 {
+  float: left;
+  width: 750px;
+  border-bottom: 1px #e0dfdd solid;
+  margin: 20px 0px;
+}
+#changsha4_text img {
+  /* float:right; */
+  height: 190px;
+  width: 385px;
+  margin: 10px 10px 14px 35px;
+  border-radius: 6px;
+}
+#changsha4_text .footprint_text {
+  float: left;
+  margin-right: 30px;
+  width: 280px;
+}
+
+/* 表格 */
+#drink {
+  float: right;
+  height: 150px;
+  width: 360px;
+  border-collapse: collapse;
+  margin: 10px;
+
+  padding-top:.75rem;
+  padding-bottom:.75rem;
+  color:#6c757d;
+  text-align:left;
+  caption-side:bottom
+}
+
+#drink_head {
+  background-color: #a2c9e8;
+}
+
+tr:hover {
+  background: #f1a7b3;
+}
+
+th {
+  font-size: 20px;
+  height: 35px;
+  font-weight: normal;
+}
+
+td {
+  font-size: 18px;
+  height: 30px;
+}
+
+th,td {
+  border: solid 1px #b8dee5;
+  text-align: center;
+}
+
+
+
+/* 南京 */
+.nanjing_con{
+  width:720px;
+  margin:0px 20px 20px 20px;
+  height:200px;
+  border: 2px solid #dbcece;
+}
+.nanjing_con .spot_img{
+  width:260px;
+  height:150px;
+  float: left;
+  margin:20px;
+  border:4px solid #c2b8b8;
+}
+.nanjing_con .spot{
+  height:20px;
+  width:20px;
+  vertical-align: middle;
+  margin:0px 2px 3px 0px;
+}
+.nanjing_con .renqi{
+  float: right;
+  height:15px;
+  width:15px;
+  vertical-align: middle;
+  margin:4px 2px 0px 0px;
+}
+.nanjing_con_text{
+  float: right;
+  width:350px;
+  /* height:180px; */
+  margin:20px 40px 20px 10px;
+}
+.tuijian{
+  float: right;
+}
+
+
+
+
+/* 成都 */
+.chengdu_img{
+  width:218px;
+  height:150px;
+  transition: all 1.2s;
+}
+.chengdu_img:hover{
+    transform: scale(1.25);
+}
+#panda{
+  float: left;
+  width:350px;
+  height:200px;
+}
+#dufu{
+    float: left;
+    width:350px;
+    height:200px;
+    margin-left: 50px;
+}
+#panda .chengdu_img{
+  width:320px;
+  height:150px;
+}
+#dufu .chengdu_img{
+  width:320px;
+  height:150px;
+}
+.img_text{
+  position: absolute;
+  color:rgb(171, 224, 224);
+  padding:5px;
+  text-align: center;
+  background-color: #fff;
+  font-size: 20px;
+  display: none;
+}

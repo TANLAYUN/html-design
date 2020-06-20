@@ -1,0 +1,44 @@
+
+form {
+    width:748px;
+	display: table;
+	border: thin dotted #7e7e7e;
+    background-color: #e4ca8f;
+    padding:50px 50px 10px 200px;
+}
+
+form textarea {
+	width: 400px;
+	height: 150px;
+}
+
+div.table_row p {
+	display: table-cell;
+	vertical-align: top;
+    padding: 3px;
+    font-size: 16px;
+}
+div.table_row p:first-child {
+    text-align: right;
+}
+p.heading {
+    font-weight: bold;
+    /* padding:30px; */
+}
+p select{
+    width:300px;
+    height:26px;
+}
+input{
+    height:20px;
+}
+#submit{
+    height:30px;
+    width:70px;
+    background-color: #fff;
+    border: burlywood 1px solid;
+    border-radius: 5px;
+}
+#contact_main{
+    height:620px;
+}

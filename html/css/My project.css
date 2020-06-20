@@ -1,0 +1,86 @@
+.content {
+    float: right;
+    margin-top: 20px;
+    width: 750px;
+    /* height: 1000px; */
+    position: relative;
+    /* border: #e0dfdd 1px solid; */
+}
+video{
+  width:740px;
+  height: 400px;
+  /* margin-left: 10px; */
+}
+
+#knowledge_header{
+  /* width:100%; */
+  height:35px;
+  background-color: rgb(154, 193, 230);
+  color:#fff;
+  font-size:24px;
+  padding:10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom:10px;
+}
+#knowledge_table{
+  margin:10px;
+}
+#knowledge_table table{
+  /* border:2px yellow solid; */
+  margin:10px;
+}
+#knowledge_table tr:first-child{
+  font-size: 20px;
+}
+#knowledge_table td:first-child{
+  width:180px;
+  text-align: center;
+  vertical-align: middle;
+}
+#knowledge_table td{
+  padding:10px;
+  border: 2px rgb(112, 171, 219) solid;
+}
+#knowledge_img{
+  width:100%;
+}
+#knowledge_img img{
+  width:355px;
+  float: left;
+  margin:10px;
+  height:180px;
+}
+
+#online{
+  display: none;
+}
+#online_img{
+  height: 350px;
+  background-color: #f6f6f6;
+}
+.online_img_inner{
+  margin: 0 auto;
+  position: relative; /*相对定位 给绝对定位位置参考*/
+  height: 350px;
+}
+.online_imgBox img {
+  width: 100%;
+  height: 350px;
+  margin: 0 auto;
+  /* padding-top: 30px; */
+}
+#online_text{
+  font-size: 18px;
+  font-weight: lighter;
+  color:rgb(139, 130, 118);
+  margin:15px 0px 0px 18px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#online_text img{
+  height:20px;
+  width:20px;
+  margin:5px 10px -5px 0px;
+}
+#transport{
+  display: none;
+}

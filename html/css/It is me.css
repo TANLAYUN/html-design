@@ -1,0 +1,140 @@
+
+.content {
+    float: right;
+    margin-top: 20px;
+    width: 680px;
+    height: 850px;
+    position: relative;
+    border: #e0dfdd 30px solid;
+  }
+.iframe {
+  margin-top: 20px;
+  width: 755px;
+  height: 800px;
+}
+
+.self_con {
+  width: 240px;
+  margin: 20px;
+  border: 2px #c9e6ea solid;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#con1 {
+  float: left;
+  height: 850px;
+}
+#con1_text{
+    margin-top:80px;
+}
+#con1_img {
+  background-color: #74afab;
+  height: 150px;
+}
+#con1_img:after {
+    display:block;
+    content:'';
+    border-width:70px 120px 0px 120px;
+    border-style:solid;
+    border-color:#74afab transparent transparent transparent;
+}
+#con1_img img {
+  height: 130px;
+  width: 130px;
+  border-radius: 250px;
+  margin: 10px 55px;
+}
+#con2 {
+  height: 220px;
+  width: 100%;
+  background-color: #c9e6ea;
+  position: absolute;
+  z-index: -1;
+}
+#con1_1 {
+  height: 420px;
+  /* background-color: #fff; */
+}
+#con1_2 {
+  height: 150px;
+  /* background-color: #cacaca; */
+}
+#con1_3 {
+  height: 180px;
+  /* background-color: #b2b2b2; */
+}
+#con2_text {
+  float: right;
+  width: 350px;
+  height: 180px;
+  margin: 20px;
+}
+#con2_text .self_text{
+    font-size: 14px;
+    margin:10px 0px;
+    color:black;
+    line-height: unset;
+}
+#con3 {
+  background-color: #74afab;
+  float: right;
+  width: 350px;
+  height: 300px;
+  margin: 20px;
+}
+#con3 .self_text{
+    font-size: 14px;
+    margin:10px;
+    color:black;
+    line-height: unset;
+}
+#con4 {
+  background-color: #74afab;
+  float: right;
+  width: 350px;
+  height: 260px;
+  margin: 0px 20px 20px 20px;
+}
+#con4 .self_text{
+    font-size: 14px;
+    margin:10px;
+    color:black;
+    line-height: unset;
+}
+.self_title {
+  font-size: 18px;
+  background-color: #b8dee5;
+  width: 80px;
+  padding: 5px;
+  font-weight: bold;
+  height: 24px;
+  /* animation: twinkling 1s infinite ease-in-out; */
+}
+
+@-webkit-keyframes twinkling{
+  0%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 2;
+      background-color: rgb(233, 241, 115);
+  }
+}
+@keyframes twinkling{
+  0%{
+      opacity: 1;
+  }
+  100%{
+      opacity: 2;
+      background-color: rgb(233, 241, 115);
+  }
+}
+
+
+.self_text {
+  font-size: 15px;
+  color: #8e8e8e;
+  text-align: justify;
+  margin: 10px;
+  line-height: 25px;
+}

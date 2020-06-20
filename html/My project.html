@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My project</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/My project.css" />
+  </head>
+  <body>
+    <!-- 页眉 -->
+    <header>
+      <div class="inner">
+        <a href="It is me.html"><img id="me" src="img/me.jpg"></a>
+            <div id="welcome"><p>布噜布噜公司欢迎您~~~</p></div>
+            
+            <!-- 导航区 -->
+            <nav>
+                <ul>
+                  <li><a href="index.html">首页</a></li>
+                  <li><a href="It is me.html">个人简介</a></li>
+                  <li><a href="My footprint.html">我的足迹</a></li>
+                  <li><a href="My photo.html">个人影展</a></li>
+                  <li style="background-color: #4774b6;"><a  style="color:#fff" href="My project.html">我的项目</a></li>
+                  <li><a href="Contact.html">联系布噜</a></li>
+                </ul>
+            </nav>
+            <!-- 导航区 -->
+      </div>
+    </header>
+
+    <!-- 图片 -->
+    <div class="bg_img">
+      <div class="img_inner">
+        <img src="img/5.jpg" alt="" />
+        <div class="inner">
+          <div class="whiteblock">
+            <div class="whiteblock_text1">
+              我的项目<br />
+              <div class="whiteblock_text2">
+                My project!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 内容区 -->
+    <div id="main">
+      <div class="inner">
+        <!-- 左侧导航栏 -->
+        <div class="nav">
+          <div class="nav_title">
+            我的项目
+          </div>
+          
+          <div
+            id="knowledge_library"
+            class="nav_con"
+            onclick="knowledge_library()"
+            style="background:rgb(154, 193, 230)"
+          >
+            知识管理
+          </div>
+          <div id="online_answer" class="nav_con" onclick="online_answer()">
+            在线问答
+          </div>
+          <div
+            id="transport_bigdata"
+            class="nav_con"
+            onclick="transport_bigdata()"
+          >
+            智慧交通
+          </div>
+        </div>
+        <!-- 左侧导航栏 -->
+
+        <!-- 右侧内容区 -->
+        <div class="content">
+          <!-- iframe -->
+          <!-- <iframe id="iframe" scrolling="no" src="knowledge_library.html" frameborder="0" width="750px" height="920px"></iframe> -->
+          <!-- iframe -->
+
+
+          <div id="knowledge">
+            <div id="knowledge_header">
+              知识管理
+            </div>
+            <table id="knowledge_table" >
+              <tbody>
+                <tr>
+                  <td><strong>项目</strong></td>
+                  <td><strong>主要内容</strong></td>
+                </tr>
+
+                <tr>
+                  <td>系统介绍</td>
+                  <td>知识库管理系统可以对组织中大量的有价值的方案、策划、成果、经验等知识进行分类存储和管理，积累知识资产避免流失，促进知识的学习、共享、培训、 再利用和创新，有效降低组织运营成本，强化其核心竞争力。
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>功能介绍</td>
+                  <td>1.知识的上传下载更新<br>
+                    2.热点知识统计（点击量，收藏量，下载量等）<br>
+                    3.知识文件的上传<br>
+                    4.知识在线浏览（excel，doc，docx，pdf，ppt，pptx，txt视频等）<br>
+                    5.关键字搜索（包含文本正文）<br>
+                    5.完善规范的知识审批流程<br>
+                    6.针对知识点建立关联知识，知识评论区等</td>
+                </tr>
+
+                <tr>
+                  <td>创新点介绍</td>
+                  <td>1.使用jfinal框架<br>
+                    2.采用elasticsearch实现全文搜索功能<br>
+                    3.实现文档的转换和文档在线预览
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div id="knowledge_img">
+              <img src="img/知识管理_首页.png" alt="首页">
+              <img src="img/知识管理_管理员界面.png" alt="管理员界面">
+              <img src="img/知识管理_公司管理员.png" alt="公司用户">
+              <img src="img/知识管理_知识预览.png" alt="知识预览">
+            </div>
+          </div>
+
+          <div id="online">
+            <div class="nav_title">
+              在线问答——图片轮播
+            </div>
+            <div id="online_img">
+              <div class="online_img_inner">
+                <div class="online_imgBox">
+                  <img
+                    class="img-slide img1"
+                    src="img/在线问答_首页.png"
+                    alt="1"
+                  />
+                  <img
+                    class="img-slide img2"
+                    src="img/在线问答_问题详情.png"
+                    alt="2"
+                  />
+                  <img
+                    class="img-slide img3"
+                    src="img/在线问答_用户主页.png"
+                    alt="3"
+                  />
+                  <img
+                    class="img-slide img4"
+                    src="img/在线问答_管理员主页.png"
+                    alt="4"
+                  />
+                </div>
+              </div>
+            </div><br>
+
+            <div class="nav_title">
+              在线问答——创新点
+            </div>
+            <div id="online_text">
+              <img src="img/邮箱.png" alt="">使用javamail发送邮件<br>
+              <img src="img/百度.png" alt="">利用百度文本审核API进行内容的审核<br>
+              <img src="img/echarts.png" alt="">采用echarts进行图形化的展示 <br>
+              <img src="img/文本框.png" alt="">富文本框进行内容编辑<br>
+              <img src="img/数据库.png" alt="">数据库配置密码加密
+            </div>
+          </div>
+
+          <div id="transport">
+            <div class="nav_title">
+              智慧交通——视频演示
+            </div>
+            <video autoplay controls src="video/智慧交通.mp4">您的浏览器不支持video标签</video>  
+          </div>
+
+
+
+        </div>
+        <!-- 右侧内容区 -->
+      </div>
+    </div>
+    <!-- 内容区 -->
+
+        <!-- 页脚 -->
+        <footer>
+          <div class="inner">
+              <div id="footer_con1" class="table_cell">
+                  <h2>布噜布噜有限公司</h2><br><br>
+                  <ul>
+                      <li>
+                          地址：中南财经政法大学信管1701班
+                      </li>
+                      <li>
+                          电话：15623233456
+                      </li>
+                      <li>
+                          邮箱：2462289249@qq.coms
+                      </li>
+                  </ul>
+                  <div id="copyright">
+                      Copyright © SINCE 1999 BULUBULU Ltd. All rights reserved.
+                  </div>
+              </div>
+  
+              <div id="footer_con2" class="table_cell">
+                  <ul>
+                      <li class="table_cell">
+                          <a href="It is me.html" style="color:#6d6b6b;font-size:16px;">个人简介</a>
+                          <a href="It is me.html?flag=self1"><p>个人消息</p></a>
+                          <a href="It is me.html?flag=self2"><p>教育背景</p></a>
+                          <a href="It is me.html?flag=self3"><p>资格证书</p></a>
+                          <a href="It is me.html?flag=self4"><p>自我评价</p></a>
+                          <a href="It is me.html?flag=self5"><p>项目经历</p></a>
+                          <a href="It is me.html?flag=self6"><p>校园经历</p></a>
+                      </li>
+                      <li class="table_cell">
+                          <a href="My footprint.html" style="color:#6d6b6b;font-size:16px;">我的足迹</a>
+                          <a href="My footprint.html?flag=changsha"><p>长沙之旅</p></a>
+                          <a href="My footprint.html?flag=nanjing"><p>南京之城</p></a>
+                          <a href="My footprint.html?flag=chengdu"><p>成都之行</p></a>
+                      </li>
+                      
+                      <li class="table_cell">
+                          <a href="My project.html" style="color:#6d6b6b;font-size:16px;">我的项目</a>
+                          <a href="My project.html？flag=knowledge"></a><p>知识管理</p>
+                          <a href="My project.html？flag=online"><p>在线问答</p></a>
+                          <a href="My project.html？flag=transport"><p>智慧交通</p></a>
+                      </li>
+                      <li class="table_cell">
+                          <a href="My photo.html" style="color:#6d6b6b;font-size:16px;">个人影展</a>
+                      </li>
+                      <li class="table_cell">
+                          <a href="Contact.html" style="color:#6d6b6b;font-size:16px;">联系布噜</a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </footer>
+      <!-- 页脚 -->
+  </body>
+  <script>
+    knowledge,online,transport
+    function knowledge_library() {
+      document.getElementById("knowledge_library").style.backgroundColor =
+        "#9ac1e6";
+      document.getElementById("online_answer").style.backgroundColor = "#fff";
+      document.getElementById("transport_bigdata").style.backgroundColor =
+        "#fff";
+      document.getElementById("knowledge").style.display = "block";
+      document.getElementById("online").style.display = "none";
+      document.getElementById("transport").style.display = "none";
+      document.getElementById("main").style.height = "1000px";
+    }
+
+    function online_answer() {
+      ChangeImg();
+      document.getElementById("online_answer").style.backgroundColor =
+        "#9ac1e6";
+      document.getElementById("knowledge_library").style.backgroundColor =
+        "#fff";
+      document.getElementById("transport_bigdata").style.backgroundColor =
+        "#fff";
+      document.getElementById("online").style.display = "block";
+      document.getElementById("knowledge").style.display = "none";
+      document.getElementById("transport").style.display = "none";
+      document.getElementById("main").style.height = "750px";
+    }
+
+    function transport_bigdata() {
+      document.getElementById("transport_bigdata").style.backgroundColor =
+        "#9ac1e6";
+      document.getElementById("online_answer").style.backgroundColor = "#fff";
+      document.getElementById("knowledge_library").style.backgroundColor =
+        "#fff";
+      document.getElementById("transport").style.display = "block";
+      document.getElementById("online").style.display = "none";
+      document.getElementById("knowledge").style.display = "none";
+      document.getElementById("main").style.height = "600px";
+    }
+
+    // window.onload = function(){
+    //   ChangeImg();
+    // }
+
+    var index = 0;
+    //改变图片
+    function ChangeImg() {
+      index++;
+      var a = document.getElementsByClassName("img-slide");
+      if (index >= a.length) index = 0;
+      for (var i = 0; i < a.length; i++) {
+        a[i].style.display = "none";
+      }
+      a[index].style.display = "block";
+    }
+    //设置定时器，每隔四秒切换一张图片
+    setInterval(ChangeImg, 3000);
+
+
+    
+    var url = window.location.href;//获取当前浏览器的url  
+    idd = url.indexOf("flag");//判断当前url是否有flag，如果有，说明是从A页面跳转而来的，就执行下面的程序  
+      
+    if(idd !=-1) {//由A页面跳转而来  
+      var str = url.substring(idd+5,url.length); 
+      if(str == 'knowledge'){
+        knowledge_library();
+      }else if(str == 'online'){
+        online_answer();
+      }else{
+        transport_bigdata();
+      }
+    }  
+  </script>
+</html>

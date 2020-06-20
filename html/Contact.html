@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/Contact.css" />
+  </head>
+  <body>
+    <!-- 页眉 -->
+    <header>
+      <div class="inner">
+        <a href="It is me.html"><img id="me" src="img/me.jpg"></a>
+            <div id="welcome"><p>布噜布噜公司欢迎您~~~</p></div>
+            
+            <!-- 导航区 -->
+            <nav>
+                <ul>
+                  <li><a href="index.html">首页</a></li>
+                  <li><a href="It is me.html">个人简介</a></li>
+                  <li><a href="My footprint.html">我的足迹</a></li>
+                  <li><a href="My photo.html">个人影展</a></li>
+                  <li><a href="My project.html">我的项目</a></li>
+                  <li style="background-color: #4774b6;"><a style="color:#fff" href="Contact.html">联系布噜</a></li>
+                </ul>
+            </nav>
+            <!-- 导航区 -->
+      </div>
+    </header>
+
+    <!-- 图片 -->
+    <div class="bg_img">
+      <div class="img_inner">
+        <img src="img/2.jpg" alt="" />
+        <div class="inner">
+          <div class="whiteblock">
+            <div class="whiteblock_text1">
+              联系布噜布噜<br />
+              <div class="whiteblock_text2">
+                Contact!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 内容区 -->
+    <div id="contact_main">
+      <div class="inner">
+        
+        <form action="#" method="post">
+          <div class="table_row">
+            <p class="heading">个人情况 </p>
+            <p></p>
+        </div>
+            <div class="table_row">
+                <p>
+                  你的城市:
+                </p>
+                <p>
+                    <select name="beans">
+                      <option value="北京">北京</option>
+                      <option value="上海">上海</option>
+                      <option value="广州">广州</option>
+                      <option value="深圳">深圳</option>
+                    </select>
+                </p>
+            </div>
+            <div class="table_row">
+                <p> 你的学历: </p>
+                <p>
+                    <input type="radio" name="beantype" value="大学"> 大学&emsp;
+                    <input type="radio" name="beantype" value="研究生及其以上" checked> 
+                    研究生及其以上
+                </p>
+            </div>
+            
+            <div class="table_row label">
+                <p> 毕业日期: </p>
+                <p> <input type="date" name="date" style="width:169px;"> </p>
+            </div>
+            <div class="table_row">
+                <p> 意向岗位: </p>
+                <p>
+                    <input type="checkbox" name="extras[]" value="web"> 前端工程师&emsp;
+                    <input type="checkbox" name="extras[]" value="server" checked>
+                    后端工程师
+                </p>
+            </div>
+            <div class="table_row">
+                <p class="heading">个人信息 </p>
+                <p></p>
+            </div>
+            <div class="table_row">
+                <p> 你的名字:</p>
+                <p> <input type="text" name="name" value="" placeholder="你的名字" required> </p>
+            </div>
+            <div class="table_row">
+              <p> 你的年龄: </p>
+              <p> <input type="number" name="bags" min="18" max="45" placeholder="你的年龄" style="width:169px"> </p>
+            </div>
+            <div class="table_row">
+                <p> 你的住址: </p>
+                <p> <input type="text" name="city" value="" placeholder="你的住址" required> </p>
+            </div>
+            <div class="table_row">
+                <p> 你的现状: </p>
+                <p> <input type="text" name="state" value="" placeholder="你的现状" required> </p>
+            </div>
+            <div class="table_row">
+                <p> 你的邮箱: </p>
+                <p> <input type="text" name="mail" value="" placeholder="2462289249@qq.com" required> </p>
+            </div>
+            <div class="table_row">
+                <p> 你的电话: </p>
+                <p> <input type="tel" name="phone" value="" placeholder="15623231337" required> </p>
+            </div>
+            <div class="table_row">
+                <p> 自我介绍: </p>
+                <p>
+                    <textarea name="self_introduction"></textarea>
+                </p>
+            </div>
+            <div class="table_row">
+                <p></p>
+                <p> <input id="submit" type="submit" value="提交"> </p>
+            </div>
+            </form>
+        
+      </div>
+    </div>
+    <!-- 内容区 -->
+
+    <!-- 页脚 -->
+    <footer>
+      <div class="inner">
+          <div id="footer_con1" class="table_cell">
+              <h2>布噜布噜有限公司</h2><br><br>
+              <ul>
+                  <li>
+                      地址：中南财经政法大学信管1701班
+                  </li>
+                  <li>
+                      电话：15623233456
+                  </li>
+                  <li>
+                      邮箱：2462289249@qq.coms
+                  </li>
+              </ul>
+              <div id="copyright">
+                  Copyright © SINCE 1999 BULUBULU Ltd. All rights reserved.
+              </div>
+          </div>
+
+          <div id="footer_con2" class="table_cell">
+              <ul>
+                  <li class="table_cell">
+                      <a href="It is me.html" style="color:#6d6b6b;font-size:16px;">个人简介</a>
+                      <a href="It is me.html?flag=self1"><p>个人消息</p></a>
+                      <a href="It is me.html?flag=self2"><p>教育背景</p></a>
+                      <a href="It is me.html?flag=self3"><p>资格证书</p></a>
+                      <a href="It is me.html?flag=self4"><p>自我评价</p></a>
+                      <a href="It is me.html?flag=self5"><p>项目经历</p></a>
+                      <a href="It is me.html?flag=self6"><p>校园经历</p></a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="My footprint.html" style="color:#6d6b6b;font-size:16px;">我的足迹</a>
+                      <a href="My footprint.html?flag=changsha"><p>长沙之旅</p></a>
+                      <a href="My footprint.html?flag=nanjing"><p>南京之城</p></a>
+                      <a href="My footprint.html?flag=chengdu"><p>成都之行</p></a>
+                  </li>
+                  
+                  <li class="table_cell">
+                      <a href="My project.html" style="color:#6d6b6b;font-size:16px;">我的项目</a>
+                      <a href="My project.html？flag=knowledge"></a><p>知识管理</p>
+                      <a href="My project.html？flag=online"><p>在线问答</p></a>
+                      <a href="My project.html？flag=transport"><p>智慧交通</p></a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="My photo.html" style="color:#6d6b6b;font-size:16px;">个人影展</a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="Contact.html" style="color:#6d6b6b;font-size:16px;">联系布噜</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+  <!-- 页脚 -->
+
+
+
+
+  </body>
+  <script>
+    
+  </script>
+</html>

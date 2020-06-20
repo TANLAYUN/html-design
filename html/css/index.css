@@ -1,0 +1,543 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font: 14px "Microsoft Yahei";
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+a:hover{
+  color:rgb(0, 162, 255);
+}
+.inner {
+  width: 1000px;
+  margin: 0 auto;
+}
+.table {
+  display: table;
+  /* border-collapse: separate; 
+    border-spacing: 10px 5px;  */
+}
+.table_row {
+  display: table-row;
+}
+.table_cell {
+  display: table-cell;
+}
+
+/* 整体布局 */
+header {
+  height: 50px;
+  background-color: #fff;
+  /* 不知道为什么，加了boostrap后html在顶部比body多出了10px的空白 */
+  /* margin-top: -10px; */
+}
+#roll_img {
+  height: 400px;
+  background-color: #f6f6f6;
+}
+#selfbrief {
+  height: 580px;
+  background-color: #fff;
+}
+#introduction {
+  height: 400px;
+  background-color: #f6f6f6;
+}
+#grow {
+  height: 150px;
+  background-color: #fff;
+}
+#footprint {
+  height: 400px;
+  background-color: #f6f6f6;
+}
+#hobby {
+  height: 400px;
+  background-color: #fff;
+}
+#project {
+  height: 300px;
+  background-color: #f6f6f6;
+}
+footer {
+  height: 240px;
+  background-color: rgb(119, 172, 221);
+}
+
+/* 页眉样式 */
+nav ul li {
+  padding: 0px 25px;
+  line-height: 50px;
+  float: left;
+  position: relative;
+  /* vertical-align: bottom; */
+}
+nav ul li:hover {
+  background-color: #4774b6;
+  font: #fff;
+}
+nav ul li a {
+  display: inline-block;
+  color: black;
+  font: 16px "Microsoft Yahei";
+}
+nav ul li a:hover {
+  color: #fff;
+}
+#me {
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+#welcome {
+  color: black;
+  font: 20px "Microsoft Yahei";
+  float: left;
+  text-align: center;
+  margin: 10px 20px 0px 20px;
+}
+
+/* 轮播图 */
+.imgBox img {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+  /* padding-top: 30px; */
+}
+.img_inner {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative; /*相对定位 给绝对定位位置参考*/
+  height: 400px;
+}
+/* .banner{
+    position: relative;相对定位 给绝对定位位置参考
+    width: 100%;
+    height: 400px;
+    float: left;
+} */
+.banner .item {
+  display: none; /*隐藏元素*/
+  position: absolute; /* 绝对定位*/
+  width: 100%;
+  height: 400px;
+  top: 0;
+  left: 0;
+}
+.lunbo {
+  width: 100%;
+  height: 400px;
+}
+/*左右按钮的属性设置*/
+.lr-tab .img_btn {
+  position: absolute;
+  top: 120px;
+  width: 41px;
+  height: 69px;
+}
+.lr-tab .left {
+  left: 10px;
+  background-position-x: -83px;
+  overflow: hidden;
+}
+.lr-tab .right {
+  right: 0px;
+  background-position-x: -125px;
+  overflow: hidden;
+}
+/*左右按钮触碰事件*/
+.lr-tab .left:hover {
+  background-position-x: 0px;
+}
+.lr-tab .right:hover {
+  background-position-x: -41px;
+}
+/*圆形按钮属性设定*/
+.tab-btn {
+  position: absolute;
+  right: 46%;
+  bottom: 20px;
+  /* width: 120px; */
+  height: 30px;
+}
+.tab-btn .img_btn {
+  float: left;
+  width: 10px;
+  height: 10px;
+  background: #868686;
+  border: 2px solid #c3c3c3; /*边框*/
+  margin-left: 10px;
+  border-radius: 50%;
+}
+/*圆形按钮触碰事件*/
+.tab-btn .img_btn:hover {
+  background: #e4e4e4;
+  border-color: #7f7f7f;
+}
+.tab-btn .active {
+  background: #e4e4e4;
+  border-color: #7f7f7f;
+}
+.arrows {
+  height: 30px;
+  width: 30px;
+  margin-top: 35px;
+}
+
+/* 个人简介 */
+.title {
+  float: left;
+  font-size: 20px;
+  padding-left: 10px;
+  border-left: 5px rgb(154, 193, 230) solid;
+}
+.title .mini_title {
+  float: left;
+  font-size: 14px;
+  color: rgb(154, 193, 230);
+}
+#selfbrief_con1 {
+  margin: 20px auto;
+  height: 50px;
+}
+.panel {
+  
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+}
+.panel-body {
+  position: relative;
+  padding: 15px;
+}
+.panel-default {
+  border-color: #ddd;
+}
+.panel-footer {
+  padding: 10px 15px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #ddd;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+div#li_title {
+  float: right;
+}
+div#li_title ul li {
+  padding: 0px 25px;
+  line-height: 45px;
+  float: left;
+  position: relative;
+  /* vertical-align: bottom; */
+}
+div#li_title ul li:hover {
+  background-color: #4774b6;
+  font: #fff;
+}
+div#li_title ul li a {
+  display: inline-block;
+  color: black;
+  font: 16px "Microsoft Yahei";
+}
+div#li_title ul li a:hover {
+  color: #fff;
+}
+/* #selfbrief_con2{
+    margin-top: 1000px;
+} */
+.selfbrief_img {
+  height: 150px;
+  width: 100%;
+}
+.self_img {
+  float: right;
+  height: 20px;
+  width: 30px;
+}
+
+/* 自我介绍 */
+#intro_con1 {
+  margin: 50px 0px;
+  height: 300px;
+  width: 700px;
+  float: left;
+  background-color: #014a99;
+}
+#intro_con2 {
+  margin: 80px 0px;
+  /* float:right; */
+  /* background-color: burlywood; */
+  position: absolute;
+  right: 13%;
+}
+#intro_con2 img {
+  width: 400px;
+  height: 240px;
+}
+#intro {
+  color: #fff;
+  width: 500px;
+  margin: 40px 40px;
+}
+
+/* 历程 */
+#grow_bg {
+  margin-top: 20px;
+  background-color: #fff;
+  height: 130px;
+}
+.grow_con {
+  border-right: 2px #d5d5d5 solid;
+  height: 100px;
+  width: 248px;
+  float: left;
+  padding-top: 30px;
+}
+div.grow_con:last-child {
+  border: 0;
+}
+.grow_con1 {
+  font-size: 30px;
+  text-align: center;
+}
+.grow_con2 {
+  font-size: 10px;
+  text-align: center;
+  color: #c0baba;
+}
+
+/* 我的足迹 */
+#footprint_con1 {
+  padding: 20px 0px;
+  height: 50px;
+}
+#footprint_con2_1 {
+  float: left;
+  width: 500px;
+}
+#footprint_con2_2 {
+  float: right;
+  width: 400px;
+}
+#foot_img {
+  width: 500px;
+  height: 220px;
+}
+#footprint_con2_1 p {
+  margin-top: 14px;
+  padding-bottom: 18px;
+  font-size: 16px;
+  color: #b2adad;
+  border-bottom: #ddcaca 1px solid;
+}
+#foot_text p {
+  color: #424242;
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+}
+.travel {
+  /* background-color: #fff; */
+  border-bottom: #efefef 2px solid;
+  height: 90px;
+  width: 350px;
+  text-align: center;
+  /* padding-top:15px; */
+}
+div.travel:first-child {
+  border-top: #efefef 2px solid;
+}
+.travel_p {
+  text-align: left;
+  float: left;
+}
+.travel_p1 {
+  width: 90px;
+  height: 24px;
+  margin: 10px;
+  font-size: 30px;
+  color: #424242;
+}
+.travel_p2 {
+  width: 200px;
+  height: 24px;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #676767;
+}
+.travel_p3 {
+  width: 90px;
+  margin: 10px;
+  font-size: 15px;
+  color: #c8c8c8;
+}
+.travel_p4 {
+  width: 150px;
+  margin: 10px 0px;
+  font-size: 10px;
+  color: #c3c3c3;
+}
+
+/* 个人爱好 */
+#hobby_con1 {
+  padding: 20px 0px;
+  height: 50px;
+}
+.favorite .f_title {
+  height: 50px;
+  line-height: 50px;
+  font-size: 18px;
+  background: #b79172;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  font-family: "Helvetica Light";
+}
+.favorite .f_title:after {
+  content: "";
+  position: absolute;
+  left: 49.7%;
+  transform: rotate(45deg) translateX(-50%);
+  background: #fff;
+  width: 25px;
+  height: 25px;
+  bottom: -21px;
+}
+.hobby_con3 img {
+  float: left;
+  width: 50%;
+  height: 230px;
+  background-color: lightblue;
+}
+
+/* 我的项目 */
+#project_con1 {
+  padding: 20px 0px;
+  height: 50px;
+}
+.project_li {
+  float: left;
+  height: 180px;
+  width: 300px;
+  margin-right: 50px;
+  border-top: rgb(34, 171, 212) 10px solid;
+  font-size: 18px;
+  text-align: center;
+  background: url("../img/在线问答系统.jpg") center no-repeat;
+}
+.project_li:first-child {
+  border-top: #4958bf 10px solid;
+  background: url("../img/知识管理系统.jpg") center no-repeat;
+}
+.project_li:last-child {
+  margin-right: 0px;
+  border-top: #ad92d3 10px solid;
+  background: url("../img/智慧交通系统.jpg") center no-repeat;
+  /* background-size:100% 100%; */
+}
+.project_text {
+  line-height: 180px;
+  color: #fff;
+}
+
+/* 页脚 */
+#footer_con1 {
+  height: 140px;
+  width: 350px;
+  float: left;
+  margin-top: 50px;
+}
+#footer_con2 {
+  height: 100px;
+  width: 550px;
+  float: right;
+  margin-top: 50px;
+}
+#footer_con1 li {
+  color: #575454;
+  font-size: 14px;
+}
+#copyright {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #575454;
+}
+#footer_con2 ul li {
+  display: inline-block;
+  margin-right: 6px;
+  font-size: 16px;
+  color: #413b3b;
+  width: 100px;
+  vertical-align: top;
+}
+#footer_con2 ul li p {
+  font-size: 14px;
+  margin-top: 5px;
+  color: #5a5151;
+}
+
+/* 子页面公用 */
+.bg_img {
+  height: 400px;
+  width: 100%;
+  background-color: #f6f6f6;
+  position: relative;
+}
+.bg_img img {
+  width: 100%;
+  height: 400px;
+  margin: 0 auto;
+}
+.whiteblock {
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  height: 80px;
+  width: 1000px;
+  border-bottom: #b4b4b4 1px solid;
+}
+.whiteblock_text1 {
+  float: left;
+  font-size: 20px;
+  margin: 20px 0px 0px 40px;
+}
+.whiteblock_text2 {
+  float: left;
+  font-size: 16px;
+  color: #b4b4b4;
+}
+.nav {
+  float: left;
+  width: 200px;
+  margin: 20px 40px 0px 0px;
+  border: 1px #b4b4b4 solid;
+}
+.nav_title {
+  height: 25px;
+  border-left: 4px rgb(154, 193, 230) solid;
+  font-size: 18px;
+  padding: 5px;
+  margin: 10px;
+}
+.nav_con {
+  height: 22px;
+  background-color: #fff;
+  padding: 8px 0px 10px 18px;
+  font-size: 16px;
+  border-top: 1px #c3c3c3 solid;
+}
+#main{
+  width:100%;
+  height:1000px;
+}

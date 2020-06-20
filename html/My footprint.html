@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My footprint</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/My footprint.css" />
+  </head>
+  <body>
+    <!-- 页眉 -->
+    <header>
+      <div class="inner">
+        <a href="It is me.html"><img id="me" src="img/me.jpg"></a>
+            <div id="welcome"><p>布噜布噜公司欢迎您~~~</p></div>
+            
+            <!-- 导航区 -->
+            <nav>
+                <ul>
+                  <li><a href="index.html">首页</a></li>
+                  <li><a href="It is me.html">个人简介</a></li>
+                  <li style="background-color: #4774b6;"><a style="color:#fff" href="My footprint.html">我的足迹</a></li>
+                  <li><a href="My photo.html">个人影展</a></li>
+                  <li><a href="My project.html">我的项目</a></li>
+                  <li><a href="Contact.html">联系布噜</a></li>
+                </ul>
+            </nav>
+            <!-- 导航区 -->
+      </div>
+    </header>
+
+    <!-- 图片 -->
+    <div class="bg_img">
+      <div class="img_inner">
+        <img src="img/5.jpg" alt="" />
+        <div class="inner">
+          <div class="whiteblock">
+            <div class="whiteblock_text1">
+              我的足迹<br />
+              <div class="whiteblock_text2">
+                My footprint!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 内容区 -->
+    <div id="main">
+      <div class="inner">
+        <!-- 左侧导航栏 -->
+        <div class="nav">
+          <div class="nav_title">
+            我的足迹
+          </div>
+          <div id="changsha_travel" class="nav_con" onclick="changsha()" style="background:rgb(154, 193, 230)">
+            长沙之旅
+          </div>
+          <div id="nanjing_travel" class="nav_con" onclick="nanjing()">
+            南京之城
+          </div>
+          <div id="chengdu_travel" class="nav_con" onclick="chengdu()">
+            成都之行
+          </div>
+        </div>
+        <!-- 左侧导航栏 -->
+
+
+        <!-- 右侧内容区 -->
+        <div class="content">
+
+          <!-- iframe -->
+          <iframe id="iframe" scrolling="no" src="changsha.html" frameborder="0" width="750px" height="920px"></iframe>
+          <!-- iframe -->
+          
+        </div>
+        <!-- 右侧内容区 -->
+      
+      </div>
+
+
+    </div>
+    <!-- 内容区 -->
+
+    <!-- 页脚 -->
+    <footer>
+      <div class="inner">
+          <div id="footer_con1" class="table_cell">
+              <h2>布噜布噜有限公司</h2><br><br>
+              <ul>
+                  <li>
+                      地址：中南财经政法大学信管1701班
+                  </li>
+                  <li>
+                      电话：15623233456
+                  </li>
+                  <li>
+                      邮箱：2462289249@qq.coms
+                  </li>
+              </ul>
+              <div id="copyright">
+                  Copyright © SINCE 1999 BULUBULU Ltd. All rights reserved.
+              </div>
+          </div>
+
+          <div id="footer_con2" class="table_cell">
+              <ul>
+                  <li class="table_cell">
+                      <a href="It is me.html" style="color:#6d6b6b;font-size:16px;">个人简介</a>
+                      <a href="It is me.html?flag=self1"><p>个人消息</p></a>
+                      <a href="It is me.html?flag=self2"><p>教育背景</p></a>
+                      <a href="It is me.html?flag=self3"><p>资格证书</p></a>
+                      <a href="It is me.html?flag=self4"><p>自我评价</p></a>
+                      <a href="It is me.html?flag=self5"><p>项目经历</p></a>
+                      <a href="It is me.html?flag=self6"><p>校园经历</p></a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="My footprint.html" style="color:#6d6b6b;font-size:16px;">我的足迹</a>
+                      <a href="My footprint.html?flag=changsha"><p>长沙之旅</p></a>
+                      <a href="My footprint.html?flag=nanjing"><p>南京之城</p></a>
+                      <a href="My footprint.html?flag=chengdu"><p>成都之行</p></a>
+                  </li>
+                  
+                  <li class="table_cell">
+                      <a href="My project.html" style="color:#6d6b6b;font-size:16px;">我的项目</a>
+                      <a href="My project.html？flag=knowledge"></a><p>知识管理</p>
+                      <a href="My project.html？flag=online"><p>在线问答</p></a>
+                      <a href="My project.html？flag=transport"><p>智慧交通</p></a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="My photo.html" style="color:#6d6b6b;font-size:16px;">个人影展</a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="Contact.html" style="color:#6d6b6b;font-size:16px;">联系布噜</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+  <!-- 页脚 -->
+
+
+
+
+  </body>
+  <script>
+
+    function changsha(){
+      document.getElementById("changsha_travel").style.backgroundColor="#9ac1e6";
+      document.getElementById("nanjing_travel").style.backgroundColor="#fff";
+      document.getElementById("chengdu_travel").style.backgroundColor="#fff";
+      document.getElementById("iframe").src="changsha.html";
+      document.getElementById("iframe").width="750";
+      document.getElementById("iframe").height="920";
+    };
+
+    function nanjing(){
+      document.getElementById("nanjing_travel").style.backgroundColor="#9ac1e6";
+      document.getElementById("changsha_travel").style.backgroundColor="#fff";
+      document.getElementById("chengdu_travel").style.backgroundColor="#fff";
+      document.getElementById("iframe").src="nanjing.html";
+      document.getElementById("iframe").width="750";
+      document.getElementById("iframe").height="920";
+    };
+    
+    function chengdu(){
+      document.getElementById("chengdu_travel").style.backgroundColor="#9ac1e6";
+      document.getElementById("nanjing_travel").style.backgroundColor="#fff";
+      document.getElementById("changsha_travel").style.backgroundColor="#fff";
+      document.getElementById("iframe").src="chengdu.html";
+      document.getElementById("iframe").width="750";
+      document.getElementById("iframe").height="920";
+    };
+    
+    var url = window.location.href;//获取当前浏览器的url  
+    idd = url.indexOf("flag");//判断当前url是否有flag，如果有，说明是从A页面跳转而来的，就执行下面的程序  
+      
+    if(idd !=-1) {//由A页面跳转而来  
+      var index = url.substring(idd+5,url.length); 
+      if(index == 'changsha'){
+        changsha();
+      }else if(index == 'nanjing'){
+        nanjing();
+      }else{
+        chengdu();
+      }
+    }  
+  </script>
+</html>

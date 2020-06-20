@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>It is me!</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/It is me.css" />
+  </head>
+  <body>
+    <!-- 页眉 -->
+    <header>
+      <div class="inner">
+        <a href="It is me.html"><img id="me" src="img/me.jpg"></a>
+            <div id="welcome"><p>布噜布噜公司欢迎您~~~</p></div>
+            
+            <!-- 导航区 -->
+            <nav>
+                <ul>
+                  <li><a href="index.html">首页</a></li>
+                  <li style="background-color: #4774b6;"><a style="color:#fff" href="It is me.html">个人简介</a></li>
+                  <li><a href="My footprint.html">我的足迹</a></li>
+                  <li><a href="My photo.html">个人影展</a></li>
+                  <li><a href="My project.html">我的项目</a></li>
+                  <li><a href="Contact.html">联系布噜</a></li>
+                </ul>
+            </nav>
+            <!-- 导航区 -->
+      </div>
+    </header>
+
+    <!-- 图片 -->
+    <div class="bg_img">
+      <div class="img_inner">
+        <img src="img/3.jpg" alt="" />
+        <div class="inner">
+          <div class="whiteblock">
+            <div class="whiteblock_text1">
+              个人简介<br />
+              <div class="whiteblock_text2">
+                It is me!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 内容区 -->
+    <div id="main">
+      <div class="inner">
+
+        <!-- 左侧导航栏 -->
+        <div class="nav">
+          <div class="nav_title">
+            个人简介
+          </div>
+          <div onclick="selfclick('self1')" id="self1" class="nav_con" style="background:rgb(154, 193, 230)">
+            个人信息
+          </div>
+          <div onclick="selfclick('self2')" id="self2" class="nav_con">
+            教育背景
+          </div>
+          <div onclick="selfclick('self3')" id="self3" class="nav_con">
+            证&emsp;&emsp;书
+          </div>
+          <div onclick="selfclick('self4')" id="self4" class="nav_con">
+            自我评价
+          </div>
+          <div onclick="selfclick('self5')" id="self5" class="nav_con">
+            项目经历
+          </div>
+          <div onclick="selfclick('self6')" id="self6" class="nav_con">
+            校园经历
+          </div>
+        </div>
+        <!-- 左侧导航栏 -->
+
+        <!-- 右侧内容区 -->
+        <div class="content">
+          <!-- <iframe scrolling="no" class="iframe" src="index.html" frameborder="0">是我是我</iframe> -->
+
+          <!-- 左边信息 -->
+          <div id="con1">
+
+            <div id="con1_1" class="self_con">
+
+              <!-- 头像 -->
+              <div id="con1_img">
+                <img src="img/me.jpg" alt="" />
+              </div>
+              <!-- 头像 -->
+
+              <!-- 个人信息 -->
+              <div id="con1_text">
+                <div id="self_title1" class="self_title">
+                  个人信息
+                </div>
+                <div class="self_text">
+                  姓&emsp;&emsp;名：谈腊云<br />
+                  年&emsp;&emsp;龄：20 <br />
+                  电&emsp;&emsp;话：15623236789 <br />
+                  邮箱：2462289249@qq.com <br />
+                  现住城市：武汉市洪山区
+                </div>
+              </div>
+              <!-- 个人信息 -->
+            </div>
+
+            <!-- 教育背景 -->
+            <div id="con1_2" class="self_con">
+              <div id="self_title2" class="self_title">
+                教育背景
+              </div>
+              <div class="self_text">
+                学校名称：中南财经政法大学<br />
+                就读时间：2017.09-2021.09 <br />
+                所学专业：信息管理与信息系统
+              </div>
+            </div>
+
+            <!-- 证书 -->
+            <div id="con1_3" class="self_con">
+              <div id="self_title3" class="self_title">
+                证&emsp;&emsp;书
+              </div>
+              <div class="self_text">
+                大学英语四、六级<br />
+                普通话二级甲等<br />
+                全国计算机二、三级证书<br />
+                人民一、二等奖学金<br />
+                机动车驾驶证
+              </div>
+            </div>
+          </div>
+          <!-- 左边信息 -->
+
+
+          <!-- 自我评价 -->
+          <div id="con2"></div>
+          <div id="con2_text">
+            <div id="self_title4" class="self_title">
+              自我评价
+            </div>
+            <div class="self_text">
+              本科就读于中南财经政法大学，在信息与安全工程学院修学信息管理与信息系统专业，系统学习了管理学和计算机类的知识，能够将二者之长结合并融入到工作和学习中。在校期间，获得一、二等人民奖学金，全国计算机二、三级证书，普通话二级甲等；在校五四表彰期间，荣获“校级优秀志愿者”，“校级优秀军运会志愿者”等荣誉称号，在每年度学习评价中获得“三好学生”的称号。
+            </div>
+          </div>
+          <!-- 自我评价 -->
+
+          <!-- 项目经历 -->
+          <div id="con3">
+            <div id="self_title5" class="self_title">
+              项目经历
+            </div>
+            <div class="self_text">
+              <strong>知识管理系统：</strong
+              >采用jfinal框架，运用elasticsearch，javamail等技术解决庞大的知识文档的归类梳理，准确快速地全文检索关键字，并提供热点知识排行，点击量排行等详尽的业务指标。<br />
+              <strong>在线问答系统：</strong
+              >采用vue+springboot的前后端框架搭建在线问答系统，运用内容审核api，echarts等技术完成用户的问题，回答，评论以及管理员的用户，问题，回答，评论管理。<br />
+              <strong>智慧交通系统：</strong
+              >运用jq，echarts,bootstrap等前端框架和java，Scala，spark，Hadoop搭建大数据平台，根据手机信令数据，完成交通分析，实现人口的出行分析，驻留分析，人群密度分析以及出行方式分析等。
+            </div>
+          </div>
+          <!-- 项目经历 -->
+
+          <!-- 校园经历 -->
+          <div id="con4">
+            <div id="self_title6" class="self_title">
+              校园经历
+            </div>
+            <div class="self_text">
+              <strong>校园职务：</strong>院志协干事、干部，校团委干事<br />
+              <strong>职位描述：</strong>1.组织并参加院级，校级以及社会的志愿活动；教导干事学习ps，pr，ae，微信公众号等新媒体工具；撰写新闻稿，公众号推文；2.撰写文书，公众号推文；组织寒暑假社会实践活动；协助组织五四表彰<br>
+              <strong>志愿活动：</strong>参加过10次以上院级，校级以及社会的志愿活动，目前已记录的志愿工时为158.6h，其中参加过比较大型的武汉马拉松医疗志愿服务，武汉军运会志愿服务，并获得过“校级优秀志愿者”，“校级优秀军运会志愿者”的称号
+            </div>
+          </div>
+          <!-- 校园经历 -->
+
+
+        </div>
+        <!-- 右侧内容区 -->
+
+
+      </div>
+    </div>
+
+
+    <!-- 页脚 -->
+    <footer>
+      <div class="inner">
+          <div id="footer_con1" class="table_cell">
+              <h2>布噜布噜有限公司</h2><br><br>
+              <ul>
+                  <li>
+                      地址：中南财经政法大学信管1701班
+                  </li>
+                  <li>
+                      电话：15623233456
+                  </li>
+                  <li>
+                      邮箱：2462289249@qq.coms
+                  </li>
+              </ul>
+              <div id="copyright">
+                  Copyright © SINCE 1999 BULUBULU Ltd. All rights reserved.
+              </div>
+          </div>
+
+          <div id="footer_con2" class="table_cell">
+              <ul>
+                  <li class="table_cell">
+                      <a href="It is me.html" style="color:#6d6b6b;font-size:16px;">个人简介</a>
+                      <a href="It is me.html?flag=self1"><p>个人消息</p></a>
+                      <a href="It is me.html?flag=self2"><p>教育背景</p></a>
+                      <a href="It is me.html?flag=self3"><p>资格证书</p></a>
+                      <a href="It is me.html?flag=self4"><p>自我评价</p></a>
+                      <a href="It is me.html?flag=self5"><p>项目经历</p></a>
+                      <a href="It is me.html?flag=self6"><p>校园经历</p></a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="My footprint.html" style="color:#6d6b6b;font-size:16px;">我的足迹</a>
+                      <a href="My footprint.html?flag=changsha"><p>长沙之旅</p></a>
+                      <a href="My footprint.html?flag=nanjing"><p>南京之城</p></a>
+                      <a href="My footprint.html?flag=chengdu"><p>成都之行</p></a>
+                  </li>
+                  
+                  <li class="table_cell">
+                      <a href="My project.html" style="color:#6d6b6b;font-size:16px;">我的项目</a>
+                      <a href="My project.html？flag=knowledge"></a><p>知识管理</p>
+                      <a href="My project.html？flag=online"><p>在线问答</p></a>
+                      <a href="My project.html？flag=transport"><p>智慧交通</p></a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="My photo.html" style="color:#6d6b6b;font-size:16px;">个人影展</a>
+                  </li>
+                  <li class="table_cell">
+                      <a href="Contact.html" style="color:#6d6b6b;font-size:16px;">联系布噜</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </footer>
+  <!-- 页脚 -->
+  </body>
+
+  <script>
+    
+    function selfclick(id){
+      document.getElementById(id).style.backgroundColor = "#9ac1e6";
+      var index=1;
+      for(index;index<7;index++){
+        var eleId = "self"+index.toString();
+        var conId = "self_title"+index.toString();
+        if(eleId != id){
+          document.getElementById(eleId).style.backgroundColor = "#fff";
+          document.getElementById(conId).style.animation = "none";
+        }else{
+          document.getElementById(conId).style.animation = "twinkling 1.8s infinite ease-in-out";
+        }
+      }
+    }
+
+
+    var url = window.location.href;//获取当前浏览器的url  
+    idd = url.indexOf("flag");//判断当前url是否有flag，如果有，说明是从A页面跳转而来的，就执行下面的程序  
+      
+    if(idd !=-1) {//由A页面跳转而来  
+      var index = url.substring(idd+5,url.length); 
+      console.log("index："+index);
+      selfclick(index);
+    }  
+
+  </script>
+
+</html>
